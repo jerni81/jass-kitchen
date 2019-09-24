@@ -4,8 +4,8 @@
  .header {
    background-color: rgb(249 68 54);
    display: flex;
-   align-items: center;
    justify-content: center;
+   align-items: center;
    height: 95pt;
    font-family: Salsa-Regular;
    font-size: 48pt;
@@ -24,4 +24,11 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
+ }
+
+ @media screen and (max-width: 600px) {
+   .footer {
+     display: flex;
+     flex-direction: column;
+   }
  }
