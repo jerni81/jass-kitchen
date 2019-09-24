@@ -9,16 +9,15 @@ class Main extends React.Component {
       borderVisible: false,
     }
   }
+toggleBorder = () => {
+  this.setState({
+    borderVisible:!this.state.borderVisible
+  })
+}
 
-const border = ({show}) =>
-
-  const toggleBorder = () => {
-    this.setState(state => ({
-      borderVisible: !state.borderVisible
-    }));
-    console.log("this is clicked")
-  };
-
+render(){
+  console.log(this.state.borderVisible)
+  let className = this.state.borderVisible ? "border" : null
   return (
     <div className="main">
       <div className="top">
@@ -33,7 +32,7 @@ const border = ({show}) =>
       </div>
       <div className="cards">
 
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -42,10 +41,10 @@ const border = ({show}) =>
             height="300px"
           />
         <button
-          onClick={toggleBorder}
+          onClick={this.toggleBorder}
           >add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -53,9 +52,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food2.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -63,9 +62,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food3.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -73,9 +72,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food4.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -83,9 +82,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food5.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -93,9 +92,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food6.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -103,9 +102,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food7.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -113,9 +112,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food8.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -123,9 +122,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food9.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -133,9 +132,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food10.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -143,9 +142,9 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food11.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
             className="card"
             border="0"
@@ -153,11 +152,12 @@ const border = ({show}) =>
             src ={process.env.PUBLIC_URL + 'images/desktop/food12.png'}
             height="300px"
           />
-          <button onClick={toggleBorder}>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
       </div>
     </div>
   )
+}
 }
 
 export default Main;
