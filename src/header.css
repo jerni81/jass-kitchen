@@ -1,0 +1,18 @@
+.header {
+  background-color: rgb(249 68 54);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  height: 120px;
+  font-family: Salsa-Regular;
+  font-size: 48pt;
+}
+
+.header .center {
+  justify-content: center;
+  align-items: center;
+}
+
+.header .right {
+  justify-content: flex-end;
+}
