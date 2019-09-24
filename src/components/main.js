@@ -9,8 +9,15 @@ class Main extends React.Component {
       borderVisible: false,
     }
   }
+toggleBorder = () => {
+  this.setState({
+    borderVisible:!this.state.borderVisible
+  })
+}
 
-render() {
+render(){
+  console.log(this.state.borderVisible)
+  let className = this.state.borderVisible ? "border" : null
   return (
     <div className="main">
       <div className="top">
@@ -25,119 +32,132 @@ render() {
       </div>
       <div className="cards">
 
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food1.png'}
             height="300px"
           />
-        <button>add / remove</button>
+        <button
+          onClick={this.toggleBorder}
+          >add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food2.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food3.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food4.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food5.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food6.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food7.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food8.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food9.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food10.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food11.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
-        <div className="card div">
+        <div className={"card div " + className}>
           <img
+            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food12.png'}
             height="300px"
           />
-          <button>add / remove</button>
+        <button onClick={this.toggleBorder}>add / remove</button>
         </div>
       </div>
     </div>
   )
 }
 }
-
 
 export default Main;
