@@ -18,7 +18,6 @@ function Main(props) {
 
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food1.png'}
@@ -28,7 +27,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food2.png'}
@@ -38,7 +36,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food3.png'}
@@ -48,7 +45,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food4.png'}
@@ -58,7 +54,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food5.png'}
@@ -68,7 +63,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food6.png'}
@@ -78,7 +72,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food7.png'}
@@ -88,7 +81,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food8.png'}
@@ -98,7 +90,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food9.png'}
@@ -108,7 +99,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food10.png'}
@@ -118,7 +108,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food11.png'}
@@ -128,7 +117,6 @@ function Main(props) {
         </div>
         <div className="card div">
           <img
-            className="card"
             border="0"
             alt="card"
             src ={process.env.PUBLIC_URL + 'images/desktop/food12.png'}
