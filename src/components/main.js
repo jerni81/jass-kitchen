@@ -15,13 +15,17 @@ function Main(props) {
         <h2> Menu of the Week: Sept 22-28 </h2>
       </div>
       <div className="cards">
-        <img
-          className="card"
-          border="0"
-          alt="card"
-          src ={process.env.PUBLIC_URL + 'images/desktop/food1.png'}
-          height="300px"
-        />
+
+        <div className="card div">
+          <img
+            className="card"
+            border="0"
+            alt="card"
+            src ={process.env.PUBLIC_URL + 'images/desktop/food1.png'}
+            height="300px"
+          />
+          <button>Button</button>
+        </div>
         <img
           className="card"
           border="0"
