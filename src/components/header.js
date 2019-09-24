@@ -4,11 +4,12 @@ import '../header.css'
 function Header(props) {
   return (
     <div className="header">
-      <div className="center">
+      <div className="title">
         <h1>JASS Kitchen</h1>
       </div>
-       <div className="right">
-          <img src ={process.env.PUBLIC_URL + 'images/desktop/shopping_cart.svg'} alt="shoppingCart"/>
+       <div className="hey">
+       Hey Brad!
+       <img src ={process.env.PUBLIC_URL + 'images/desktop/shopping_cart.svg'} alt="shoppingCart"/>
        </div>
     </div>
   )

@@ -3,16 +3,17 @@
   position: fixed;
   width: 100%;
   display: flex;
+  align-items: center;
   height: 120px;
   font-family: Salsa-Regular;
   font-size: 22pt;
 }
 
-.header .center {
-  justify-content: center;
-  align-items: center;
+.title {
+  width: 100vw;
+  text-align: center;
 }
 
-.header .right {
-  justify-content: flex-end;
+.hey{
+  margin-left: -15%;
 }
