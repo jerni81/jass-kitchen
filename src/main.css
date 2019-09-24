@@ -16,11 +16,23 @@
 }
 
 .card {
-  margin: 3px;
+  /* margin: 3px; */
   width: 300px;
   height: 300px;
 }
 
+.div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
 .div button {
-  margin-top: -100px;
+  margin-top: -50px;
+  height: 120px;
+  width: 250px;
+  background-color: rgb(249 68 54);
+  color: white;
+  font-size: 22px;
 }

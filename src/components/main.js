@@ -24,7 +24,7 @@ function Main(props) {
             src ={process.env.PUBLIC_URL + 'images/desktop/food1.png'}
             height="300px"
           />
-          <button>Button</button>
+        <button>Add to Cart</button>
         </div>
         <img
           className="card"
