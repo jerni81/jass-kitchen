@@ -13,8 +13,9 @@
 .title {
   width: 100vw;
   text-align: center;
+  padding-left: 10vw;
 }
 
-.hey{
-  /* margin-left: -15%; */
+.shopping {
+  margin-right: 15px;
 }

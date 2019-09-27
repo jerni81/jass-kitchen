@@ -9,7 +9,7 @@ function Header(props) {
       </div>
        <div className="hey">
        Hey Brad!
-       <img className="desktop" src ={process.env.PUBLIC_URL + 'images/desktop/shopping_cart.svg'} alt="shoppingCart"/>
+       <img className="shopping" src ={process.env.PUBLIC_URL + 'images/desktop/shopping_cart.svg'} alt="shoppingCart"/>
        </div>
     </div>
   )
