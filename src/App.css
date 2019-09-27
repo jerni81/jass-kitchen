@@ -6,10 +6,32 @@
 
  }
 
+ .banner {
+ display: block;
+ }
+
+ .banner2  {
+  display: none;
+}
+
+
 
  @media screen and (max-width: 600px) {
    .footer {
      display: flex;
      flex-direction: column;
    }
- }
+
+   .header {
+     display: flex;
+     flex-direction: row;
+   }
+
+   .banner {
+     display: none;
+   }
+
+   .banner2  {
+    display: block;
+    width: 100%;
+  }}

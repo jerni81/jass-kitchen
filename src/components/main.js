@@ -104,6 +104,13 @@ render(){
           src ={process.env.PUBLIC_URL + 'images/desktop/banner.png'}
           height="300px"
         />
+        <img
+          className="banner2"
+          border="0"
+          alt="banner"
+          src ={process.env.PUBLIC_URL + 'images/mobile/mobilebanner.png'}
+          height="300px"
+        />
         <h2> Menu of the Week: Sept 22-28 </h2>
       </div>
       <div className="cards">
